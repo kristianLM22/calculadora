@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Calculadora</title>
+</head>
+<body>
+
+    
+    <div class="backcontainer">
+        <h1>Calculadora</h1>
+        <div class="container">
+            <form>
+                <input type="text" id="auxiliar"  value="0" readonly="readonly"/>
+                <br>
+                <input type="text" id="tela_operador" value="" readonly="readonly"/>
+                <br>
+                <input type="text" id = "display" value="0" readonly="readonly"/>
+                <br>
+                
+                <div class="numbers">
+    
+                <input class = "number"  type="button" value="7">
+                <input class= "number"  type="button" value="8">
+                <input class = "number" type="button" value="9">
+                <input class = "operador"class = "bmult" type="button" value="x">
+                <br>
+                <input class = "number" type="button" value="4">
+                <input class= "number" type="button" value="5">
+                <input class = "number" type="button" value="6">
+                <input class = "operador"class = "bdivd" type="button" value="/">
+                <br>
+                <input class = "number" type="button" value="1">
+                <input class = "number" type="button" value="2">
+                <input class = "number" type="button" value="3">
+                <input class = "operador"class = "bsoma" type="button" value="+">
+                <br>
+                <input  class = "number" type="button" value="0">
+                <input class = "number"type="button" value=".">
+                <input id = "bigual" type="button" value="=">
+                <input class = "operador"class = "bmenos" type="button" value="-">
+    
+                </div>
+                
+                
+                <br>
+                <input id ="clear" class = "bcl" type="button" value="CE">
+    
+            </form>
+    
+    
+    
+            
+        </div>
+
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
